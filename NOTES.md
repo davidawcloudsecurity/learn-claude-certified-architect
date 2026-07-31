@@ -29,9 +29,12 @@ Task profile | Model
 
 ### Pick the right feature for the job
 Card	Configuration	Reason
-- Project + Skill · Sonnet	Recurring structured task, stable context, fixed output format
-- Research · Sonnet	Current-information task; window post-dates reliable training-data recall
-- Code Execution · Haiku or Sonnet	Calculation on a defined dataset; result must be accurate
-- Project (knowledge base) + Artifact · Opus	Nuanced multi-source analysis, ambiguous inputs, high-stakes deliverable
-- Chat + Artifact · Sonnet	One-off drafting task; no capability layer needed
-- Project + Code Execution + Skill · Sonnet	Recurring workflow with verified numeric outputs and consistent format
+| Card  | Configuration                              | Best For                                                 | Keywords                                        |
+| ----- | ------------------------------------------ | -------------------------------------------------------- | ----------------------------------------------- |
+| **A** | Project + Skill + Sonnet                   | Repeated work with the same structure                    | recurring, template, knowledge, consistency     |
+| **B** | Research + Sonnet                          | Looking up current information                           | latest, recent, competitors, news               |
+| **C** | Code Execution + Haiku/Sonnet              | Data analysis and calculations                           | CSV, Excel, math, statistics                    |
+| **D** | Project (Knowledge Base) + Artifact + Opus | Large, complex analysis using many documents             | board reports, strategy, ambiguity              |
+| **E** | Chat + Artifact + Sonnet                   | One-off writing                                          | email, letter, proposal                         |
+| **F** | Project + Code Execution + Skill + Sonnet  | Recurring workflow involving calculations and formatting | monthly reports, dashboards, financial analysis |
+
