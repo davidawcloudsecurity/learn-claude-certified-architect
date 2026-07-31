@@ -65,6 +65,17 @@ Card	Configuration	Reason
 | **E** | **Email/Edit**       | One-off writing or drafting                              |
 | **F** | **Factory Workflow** | Repeated process with calculations and a standard output |
 
+### Anatomy of an Effective Prompt
+The component stack
+| Component         | What it Controls                      | Why It Matters                                                                          | Example                                                                        |
+| ----------------- | ------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Role**          | Who Claude should act as for the task | Sets the vocabulary, expertise level, perspective, and assumptions                      | "Act as a financial analyst" / "Act as a security architect"                   |
+| **Context**       | Background information Claude needs   | Provides details Claude cannot know: audience, situation, history, documents, decisions | "This is for a board presentation. The company is migrating workloads to AWS." |
+| **Task**          | The specific action to perform        | Gives a clear objective. A strong prompt usually has one main action verb               | "Analyze the risks" / "Summarize the report" / "Compare these architectures"   |
+| **Constraints**   | Boundaries and requirements           | Controls the output so it is usable without heavy editing                               | "Keep it under 500 words. Use a professional tone. Include pros and cons."     |
+| **Output Format** | The structure of the answer           | Defines how the result should be presented                                              | "Create a table" / "Write a 3-paragraph memo" / "Generate a checklist"         |
+
+
 - Does it need the latest information?
 - Does it involve calculations?
 - Is it a recurring workflow?
