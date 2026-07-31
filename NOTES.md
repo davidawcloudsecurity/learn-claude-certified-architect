@@ -5,6 +5,15 @@ Projects carry context
 Skills define procedures
 - How a specific task should be executed, consistently, every time.
 
+| Component          | Think of it as                           | What it contains                                                                                                  |
+| ------------------ | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Project**        | **Workspace / Project Folder**           | Documents, uploaded files, previous conversations, knowledge base, persistent context.                            |
+| **Skill**          | **Instructions / SOP / Prompt Template** | "Always respond this way", "Use this template", "Follow these rules". It's reusable guidance rather than data.    |
+| **Artifact**       | **Finished Output**                      | A report, slide deck, email, document, meeting notes, or other deliverable.                                       |
+| **Research**       | **Web Browser**                          | Searches the internet for information outside the model's knowledge.                                              |
+| **Code Execution** | **Sandbox that runs code**               | Executes Python (and in some environments shell commands) to analyze data, transform files, generate charts, etc. |
+
+
 ### Use Cases
 ```
 A business analyst produced a regulatory tracking report once a month. The task was consistent: take that month's regulatory updates, identify which applied to the portfolio, summarize the implications, and format the output per a defined template. The task was high stakes, but with a repeatable structure.
