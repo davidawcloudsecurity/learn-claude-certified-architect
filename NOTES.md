@@ -65,6 +65,15 @@ Card	Configuration	Reason
 | **E** | **Email/Edit**       | One-off writing or drafting                              |
 | **F** | **Factory Workflow** | Repeated process with calculations and a standard output |
 
+| Question                                                      | Why it matters                                                                                                                                         | Points you to                          |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
+| **Does it need the latest information?**                      | The AI's built-in knowledge may be outdated. It needs access to external sources to get fresh data.                                                    | **Research (Card B)**                  |
+| **Does it involve calculations?**                             | Language models are good at reasoning but not always reliable at arithmetic or large-scale data processing. A code environment gives accurate results. | **Code Execution (Card C/F)**          |
+| **Is it a recurring workflow?**                               | Repeated tasks benefit from saved context, files, and reusable instructions instead of starting from zero every time.                                  | **Project + Skill (Card A/F)**         |
+| **Does it require deep reasoning across multiple documents?** | Large, ambiguous problems need stronger reasoning, document understanding, and synthesis.                                                              | **Project + Artifact + Opus (Card D)** |
+| **Is it just a one-off drafting task?**                       | No memory, automation, or special tools are required. The AI just needs to create the content.                                                         | **Chat + Artifact (Card E)**           |
+
+  
 ### Anatomy of an Effective Prompt
 The component stack
 | Component         | What it Controls                      | Why It Matters                                                                          | Example                                                                        |
@@ -76,8 +85,5 @@ The component stack
 | **Output Format** | The structure of the answer           | Defines how the result should be presented                                              | "Create a table" / "Write a 3-paragraph memo" / "Generate a checklist"         |
 
 
-- Does it need the latest information?
-- Does it involve calculations?
-- Is it a recurring workflow?
-- Does it require deep reasoning across multiple documents?
+
 - Or is it just a one-off drafting task?
