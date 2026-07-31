@@ -15,9 +15,10 @@ In month three, she rebuilt the workflow using the capability layer. The portfol
 
 The time per session dropped from 65 minutes to 30, and the verification step still ran. No errors were found in months three through eight.
 ```
-What the analyst asked before rebuilding 
+What the analyst asked before rebuilding
+
 Question|	Layer it pointed to|
-Which parts of this task are the same every time?|	Standing instructions + Skill
-Which reference material recurs across sessions?|	Knowledge base
-Which outputs need to be computed correctly, not just "sound right"?|	Code Execution
-Which context do I want to carry across sessions without re-entry?|	Memory
+Which parts of this task are the same every time?|	Standing instructions + Skill|
+Which reference material recurs across sessions?|	Knowledge base|
+Which outputs need to be computed correctly, not just "sound right"?|	Code Execution|
+Which context do I want to carry across sessions without re-entry?|	Memory|
