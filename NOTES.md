@@ -65,8 +65,8 @@ Card	Configuration	Reason
 | **E** | **Email/Edit**       | One-off writing or drafting                              |
 | **F** | **Factory Workflow** | Repeated process with calculations and a standard output |
 
-• Does it need the latest information?
-• Does it involve calculations?
-• Is it a recurring workflow?
-• Does it require deep reasoning across multiple documents?
-• Or is it just a one-off drafting task?
+- Does it need the latest information?
+- Does it involve calculations?
+- Is it a recurring workflow?
+- Does it require deep reasoning across multiple documents?
+- Or is it just a one-off drafting task?
