@@ -83,3 +83,14 @@ The component stack
 | **Task**          | The specific action to perform        | Gives a clear objective. A strong prompt usually has one main action verb               | "Analyze the risks" / "Summarize the report" / "Compare these architectures"   |
 | **Constraints**   | Boundaries and requirements           | Controls the output so it is usable without heavy editing                               | "Keep it under 500 words. Use a professional tone. Include pros and cons."     |
 | **Output Format** | The structure of the answer           | Defines how the result should be presented                                              | "Create a table" / "Write a 3-paragraph memo" / "Generate a checklist"         |
+
+### Weak prompt: everything left implicit
+```
+Weak prompt
+"Write a summary of our quarterly operations."
+### Strong prompt: components made explicit
+```
+Strong prompt
+"You are an operations analyst (role). I am preparing a one-page update for our regional director, who cares about throughput and cost, not process detail (context and audience). Summarize the attached Q3 operations data (task), covering only the three metrics that moved more than 10 percent against target (constraint). Format as a short headline followed by three bullet points, each one sentence (output format)."
+```
+```
