@@ -27,3 +27,11 @@ Task profile | Model
 - Most professional drafting, synthesis, and analysis | Sonnet
 - Complex judgment, high-stakes output, ambiguous or multi-layered inputs |	Opus
 
+### Pick the right feature for the job
+Card	Configuration	Reason
+- Project + Skill · Sonnet	Recurring structured task, stable context, fixed output format
+- Research · Sonnet	Current-information task; window post-dates reliable training-data recall
+- Code Execution · Haiku or Sonnet	Calculation on a defined dataset; result must be accurate
+- Project (knowledge base) + Artifact · Opus	Nuanced multi-source analysis, ambiguous inputs, high-stakes deliverable
+- Chat + Artifact · Sonnet	One-off drafting task; no capability layer needed
+- Project + Code Execution + Skill · Sonnet	Recurring workflow with verified numeric outputs and consistent format
