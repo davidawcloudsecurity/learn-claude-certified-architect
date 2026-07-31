@@ -38,3 +38,20 @@ Card	Configuration	Reason
 | **E** | Chat + Artifact + Sonnet                   | One-off writing                                          | email, letter, proposal                         |
 | **F** | Project + Code Execution + Skill + Sonnet  | Recurring workflow involving calculations and formatting | monthly reports, dashboards, financial analysis |
 
+| Scenario                                                                                 | Correct Card                                      | Reason                                                                                                                                   |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **S1. Marketing director needs competitors' product launches in the last 90 days.**      | **B – Research + Sonnet**                         | Requires **current information** that is newer than the model's training data, so web research is needed.                                |
+| **S2. Weekly meeting notes using the same template for six months.**                     | **A – Project + Skill + Sonnet**                  | A **recurring structured task** with a consistent format. The Project stores context, and the Skill ensures the same workflow each week. |
+| **S3. Strategy consultant writes a 15-page board analysis from four reports.**           | **D – Project + Artifact + Opus**                 | Requires **deep reasoning**, interpretation of multiple documents, handling ambiguity, and producing a high-quality deliverable.         |
+| **S4. HR analyst calculates response rates from 800 survey responses.**                  | **C – Code Execution + Haiku/Sonnet**             | Primarily a **data analysis task** involving calculations, percentages, and identifying departments below a threshold.                   |
+| **S5. Monthly variance analysis comparing actuals to budget using a standard template.** | **F – Project + Code Execution + Skill + Sonnet** | A **recurring workflow** that combines calculations, standardized formatting, and reusable instructions.                                 |
+| **S6. Procurement manager drafts a one-off reply to a vendor.**                          | **E – Chat + Artifact + Sonnet**                  | A **single drafting task** with no recurring workflow, research, or calculations required.                                               |
+
+| Card  | Remember It As       | Think Of...                                              |
+| ----- | -------------------- | -------------------------------------------------------- |
+| **A** | **Always the same**  | Recurring templates and structured work                  |
+| **B** | **Browse**           | Current events, latest news, web research                |
+| **C** | **Calculate**        | Excel, CSVs, statistics, numeric analysis                |
+| **D** | **Deep Think**       | Complex reports, strategy, multiple documents            |
+| **E** | **Email/Edit**       | One-off writing or drafting                              |
+| **F** | **Factory Workflow** | Repeated process with calculations and a standard output |
