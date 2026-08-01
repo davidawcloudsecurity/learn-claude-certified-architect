@@ -109,6 +109,13 @@ Weak prompt
 | **When to Start a New Conversation**           | Move to a new chat when the task is independent or the conversation becomes too long and context quality drops.        | Vendor evaluation and writing a marketing email should be separate conversations.                                             |
 
 Strong prompt
+```
 "You are an operations analyst (role). I am preparing a one-page update for our regional director, who cares about throughput and cost, not process detail (context and audience). Summarize the attached Q3 operations data (task), covering only the three metrics that moved more than 10 percent against target (constraint). Format as a short headline followed by three bullet points, each one sentence (output format)."
 ```
-```
+| Without Decomposition     | With Decomposition       |
+| ------------------------- | ------------------------ |
+| "Do everything"           | "Do one stage at a time" |
+| Hard to verify            | Easy to review           |
+| Hidden reasoning          | Visible checkpoints      |
+| Higher chance of mistakes | Easier correction        |
+
