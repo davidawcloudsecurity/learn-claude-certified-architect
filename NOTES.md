@@ -225,4 +225,9 @@ Satisfied?
 | **"Give me everything you know about supply chain risk."**                                                                                    | **Context**                | The topic is too broad. Claude doesn't know the audience or purpose.                                    | Add context, e.g., **"I'm preparing a board presentation on supply chain risks for a manufacturing company."**        |
 | **"Write a professional document about the project."**                                                                                        | **Output Format**          | "Professional document" is vague. Should it be a report, proposal, memo, or executive summary?          | Specify the format, e.g., **"Write a one-page executive summary."**                                                   |
 | **"Brainstorm names, but each must be one word, under eight letters, avoid these twelve terms, and match our exact brand voice guidelines."** | **Constraints**            | The prompt is dominated by restrictions. The agent needs clear, organized constraints to succeed.       | Organize or simplify the constraints, or provide the brand guidelines explicitly so they can be applied consistently. |
-
+### 3. Three-Way Triage
+| Verdict                     | When to Use                                                                | Action                               |
+| --------------------------- | -------------------------------------------------------------------------- | ------------------------------------ |
+| ✅ **Ready to Use**          | Meets requirements, matches sources, and satisfies professional standards. | Use the output.                      |
+| 🟡 **Needs Revision**       | Mostly correct but contains specific gaps or errors.                       | Revise only the identified issues.   |
+| 🔴 **Needs Human Override** | High uncertainty, high stakes, or errors that require human expertise.     | Escalate to a subject matter expert. |
