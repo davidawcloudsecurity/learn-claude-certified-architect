@@ -119,3 +119,18 @@ Strong prompt
 | Hidden reasoning          | Visible checkpoints      |
 | Higher chance of mistakes | Easier correction        |
 
+### Decompose a Parallel Case
+The key idea:
+```
+When multiple outputs depend on the same source of truth, do the common analysis first, then create the different deliverables.
+```
+| Concept                          | Explanation                                                                           | Example                                                              |
+| -------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| **Parallel Case Decomposition**  | Breaking one large request into multiple deliverables that share common information.  | One policy document → announcement + FAQ + executive briefing        |
+| **The Problem**                  | If you create each output separately, each one may interpret the source differently.  | Announcement says one thing, FAQ says another                        |
+| **Shared Foundation**            | Extract the important facts once and use them as the source of truth for all outputs. | Policy changes and their practical impact                            |
+| **Step 1: Extract Information**  | First identify the key facts before writing anything.                                 | "Extract all policy changes and explain their business impact."      |
+| **Step 2: Validate Extraction**  | Confirm the extracted information is accurate before using it.                        | "Review the extracted changes against the original policy document." |
+| **Step 3: Create Deliverable 1** | Use the validated foundation to create the first output.                              | Staff announcement                                                   |
+| **Step 4: Create Deliverable 2** | Reuse the same foundation but change the audience and purpose.                        | FAQ for employees                                                    |
+| **Step 5: Create Deliverable 3** | Compress the same information for another audience.                                   | Executive briefing                                                   |
