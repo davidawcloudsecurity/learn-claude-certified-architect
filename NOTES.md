@@ -134,3 +134,86 @@ When multiple outputs depend on the same source of truth, do the common analysis
 | **Step 3: Create Deliverable 1** | Use the validated foundation to create the first output.                              | Staff announcement                                                   |
 | **Step 4: Create Deliverable 2** | Reuse the same foundation but change the audience and purpose.                        | FAQ for employees                                                    |
 | **Step 5: Create Deliverable 3** | Compress the same information for another audience.                                   | Executive briefing                                                   |
+
+Here is the content organized into concise study tables.
+
+## 1. Prompt Iteration Diagnostic Table
+
+| If the Output...                          | Likely Cause                                     | What to Fix                                         | Example                                               |
+| ----------------------------------------- | ------------------------------------------------ | --------------------------------------------------- | ----------------------------------------------------- |
+| Is generic or lacks detail                | **Context** is insufficient                      | Add background, audience, or source information     | Explain the project, customer, or business situation  |
+| Answers the wrong question                | **Task** is ambiguous                            | Use a clearer action verb                           | Replace "review" with "compare" or "recommend"        |
+| Has the wrong length, tone, or structure  | **Constraints** or **Output Format** are missing | Specify word count, tone, or format                 | "Under 150 words", "Use a table", "Professional tone" |
+| Is mostly correct but one section is weak | Only one part needs improvement                  | Refine that section instead of rewriting everything | "Improve the conclusion only."                        |
+
+---
+
+## 2. The Prompt Improvement Process
+
+| Step | What You Do                | Why                                                                  |
+| ---- | -------------------------- | -------------------------------------------------------------------- |
+| 1    | Read the output carefully  | Identify what is actually wrong                                      |
+| 2    | Diagnose the cause         | Determine whether the issue is Context, Task, Constraints, or Format |
+| 3    | Change only that component | Avoid introducing new problems                                       |
+| 4    | Compare the new output     | Verify that the specific issue is resolved                           |
+| 5    | Repeat only if necessary   | Stop when improvements become minimal                                |
+
+---
+
+## 3. Example Iteration Cycle
+
+| Round | Prompt                                                                    | Diagnosis                         | Improvement                                      |
+| ----- | ------------------------------------------------------------------------- | --------------------------------- | ------------------------------------------------ |
+| **1** | "Write a follow-up email to the client about the delayed deliverable."    | Missing context and tone guidance | Too generic; no explanation or new delivery date |
+| **2** | Add the reason for the delay, the new delivery date, tone, and word limit | Most issues resolved              | Email becomes specific, accountable, and concise |
+| **3** | "Add a subject line that signals resolution."                             | Only the subject line is missing  | Final polished email                             |
+
+**Notice:** Each round changes **only one thing** based on what the previous output revealed.
+
+---
+
+## 4. Good vs Bad Iteration
+
+| Bad Practice                         | Good Practice                                    |
+| ------------------------------------ | ------------------------------------------------ |
+| Rewrite the entire prompt every time | Modify only the component causing the problem    |
+| Guess what went wrong                | Diagnose the specific issue first                |
+| Throw away a mostly good response    | Keep the good parts and improve the weak section |
+| Chase perfection endlessly           | Stop when improvements become marginal           |
+
+---
+
+## 5. Mental Model
+
+```text
+Prompt
+   ↓
+Output
+   ↓
+Diagnose
+   ↓
+Fix ONE component
+   ↓
+Generate again
+   ↓
+Satisfied?
+   ├── No → Repeat
+   └── Yes → Stop
+```
+
+---
+
+## 6. Rule of Thumb
+
+| Problem                 | Fix                                                |
+| ----------------------- | -------------------------------------------------- |
+| Too generic             | Add **Context**                                    |
+| Wrong answer            | Clarify the **Task**                               |
+| Wrong tone or length    | Add **Constraints**                                |
+| Wrong layout            | Specify **Output Format**                          |
+| One weak section        | Refine **only that section**                       |
+| Small improvements only | **Stop iterating** and make any final manual edits |
+
+### Key takeaway
+
+**Don't rewrite the entire prompt because the output isn't perfect.** Treat the output like a diagnostic report: it tells you **which prompt component needs improvement**. Fix that one component, rerun, and repeat only until the gains become marginal. This targeted approach is faster, more consistent, and easier to learn from than starting over each time.
