@@ -231,3 +231,14 @@ Satisfied?
 | ✅ **Ready to Use**          | Meets requirements, matches sources, and satisfies professional standards. | Use the output.                      |
 | 🟡 **Needs Revision**       | Mostly correct but contains specific gaps or errors.                       | Revise only the identified issues.   |
 | 🔴 **Needs Human Override** | High uncertainty, high stakes, or errors that require human expertise.     | Escalate to a subject matter expert. |
+
+### The four configuration mechanisms
+| Mechanism                 | Purpose                                                                       | Store                                                                               | Don't Store                                       | Example                                                                                                     |
+| ------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Standing Instructions** | Define Claude's default behavior for every conversation in the Project.       | Tone, writing style, formatting, verification habits, response preferences          | Company facts, documents, procedures              | "Always cite sources." "Use bullet points." "Verify calculations before answering."                         |
+| **Knowledge Base**        | Provide reference information Claude can retrieve without re-uploading files. | Policies, SOPs, manuals, architecture docs, product documentation, brand guidelines | Behavior rules or workflows                       | Employee handbook, AWS architecture diagrams, security policies                                             |
+| **Skills**                | Define reusable, repeatable workflows or procedures.                          | Multi-step processes, standard operating procedures, report generation workflows    | One-off requests or project-specific instructions | "Generate a weekly compliance report." "Perform a security review." "Analyze logs then summarize findings." |
+| **Scoped Memory**         | Maintain continuity within a single Project.                                  | Project decisions, ongoing discussions, previous outputs, agreed assumptions        | Information meant for other projects              | "This project uses PostgreSQL." "We've chosen Option B."                                                    |
+
+
+
