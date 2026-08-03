@@ -240,5 +240,51 @@ Satisfied?
 | **Skills**                | Define reusable, repeatable workflows or procedures.                          | Multi-step processes, standard operating procedures, report generation workflows    | One-off requests or project-specific instructions | "Generate a weekly compliance report." "Perform a security review." "Analyze logs then summarize findings." |
 | **Scoped Memory**         | Maintain continuity within a single Project.                                  | Project decisions, ongoing discussions, previous outputs, agreed assumptions        | Information meant for other projects              | "This project uses PostgreSQL." "We've chosen Option B."                                                    |
 
+### A diagnostic sequence
+Here's a condensed study table that captures the diagnostic sequence.
+
+| Step  | Check               | Ask Yourself                                                                  | Typical Fix                                         | Cost          |
+| ----- | ------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------- | ------------- |
+| **1** | **Prompt**          | Is the Role, Context, Task, Constraints, or Output Format missing or unclear? | Rewrite or improve the prompt.                      | ⭐ Very Low    |
+| **2** | **Context**         | Has the conversation become too long or overloaded?                           | Restart from a summary or compact the conversation. | ⭐⭐ Low        |
+| **3** | **Model / Feature** | Am I using the right capability? (Code Execution, Web Search, stronger model) | Switch to the appropriate feature or model.         | ⭐⭐⭐ Medium    |
+| **4** | **Configuration**   | Are my Instructions, Knowledge Base, Skills, or Memory outdated or missing?   | Update the configuration.                           | ⭐⭐⭐⭐ Medium   |
+| **5** | **Task Fit**        | Is this something Claude can realistically do?                                | Reshape the task to match the model's capabilities. | ⭐⭐⭐⭐⭐ Highest |
+
+---
+
+## Failure Diagnosis Examples
+
+| Symptom                              | Diagnosis                    | Fix                                                                     |
+| ------------------------------------ | ---------------------------- | ----------------------------------------------------------------------- |
+| Summary misses important points      | **Prompt** (under-specified) | Define what "important" means.                                          |
+| Stops following the requested format | **Context overload**         | Restart from a summary or move formatting into standing instructions.   |
+| Calculations are inaccurate          | **Wrong feature**            | Use **Code Execution** instead of text generation.                      |
+| Worked before but not now            | **Configuration**            | Review Instructions, Knowledge Base, Skills, and Memory.                |
+| Predict next quarter's exact sales   | **Task mismatch**            | Ask for scenarios, ranges, or assumptions instead of exact predictions. |
+
+---
+
+## Decision Tree
+
+| Question                               | Action                                                  |
+| -------------------------------------- | ------------------------------------------------------- |
+| Is the prompt clear?                   | Fix the prompt.                                         |
+| Is the conversation too long?          | Summarize or restart.                                   |
+| Am I using the right model or feature? | Switch models or enable the right capability.           |
+| Is the project configuration correct?  | Update Instructions, Knowledge Base, Skills, or Memory. |
+| Can Claude actually perform this task? | Reshape the request.                                    |
+
+### Key Principle
+
+> **Always fix the cheapest thing first.**
+
+1. Prompt
+2. Context
+3. Model/Feature
+4. Configuration
+5. Task Fit
+
+Most failures are resolved in the first two steps. Jumping straight to a more powerful model or concluding "AI can't do this" is often unnecessary.
 
 
